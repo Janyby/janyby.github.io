@@ -17,8 +17,8 @@
     <base href="/" />
     
 <script type="module">
-import init, * as bindings from '/vbt-kpi-7e6882b9eeca7071.js';
-const wasm = await init({ module_or_path: '/vbt-kpi-7e6882b9eeca7071_bg.wasm' });
+import init, * as bindings from '/vbt-kpi-5d7271889cc10af6.js';
+const wasm = await init({ module_or_path: '/vbt-kpi-5d7271889cc10af6_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -59,7 +59,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
             touch-action: none;
         }
     </style>
-<link rel="modulepreload" href="/vbt-kpi-7e6882b9eeca7071.js" crossorigin="anonymous" integrity="sha384-rlSnPDeu+MXd3pJ/JYBZnXjbqG4pSCfsl7T4jf8zhJz9muuPFiIDmCg2ET8m7lD5"><link rel="preload" href="/vbt-kpi-7e6882b9eeca7071_bg.wasm" crossorigin="anonymous" integrity="sha384-xMnAIgXk80crXKu+UJ+b/hIbgdAp0aV3xDd2kdDqmhjNQZKfB1HjS6F11WRPwbrF" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/vbt-kpi-5d7271889cc10af6.js" crossorigin="anonymous" integrity="sha384-rlSnPDeu+MXd3pJ/JYBZnXjbqG4pSCfsl7T4jf8zhJz9muuPFiIDmCg2ET8m7lD5"><link rel="preload" href="/vbt-kpi-5d7271889cc10af6_bg.wasm" crossorigin="anonymous" integrity="sha384-OmNPalvJthfVjlyGM85Q+UwQO9RdTZz105xlm/7y+W9Hha8KxqH/jXdna6qmSj8U" as="fetch" type="application/wasm"></head>
 <body>
     <!-- Холст, в который egui рисует интерфейс -->
     <canvas id="the_canvas_id" tabindex="0"></canvas>
